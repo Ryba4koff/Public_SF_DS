@@ -45,6 +45,42 @@ def score_game(random_predict) -> int:
     return score
 
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
     # RUN
     score_game(random_predict)
+
+
+def game_core_v3(number: int = 1) -> int:
+    """Применяем метод деления пополам. делим максимальное число пополам, если результат больше загаданного,
+    то делим пополам еще раз, если меньше загаданного, то делим пополам и прибавляем результат первого деления.
+    Считаем среднее кол-во попыток.
+
+    Args:
+        random_predict ([type]): функция угадывания
+
+    Returns:
+        int: среднее количество попыток
+    """
+    
+    count = 0
+    number_max = 102
+    number_min = 0
+        
+    while True:
+        predict = round((number_max + number_min)/2)
+        count +=1
+        if number > predict:
+            number_min = predict
+        elif number < predict:
+            number_max = predict
+        elif number == predict:
+            break
+            
+    return count
+
+
+print('Run benchmarking for game_core_v3: ', end='')
+score_game(game_core_v3)
+    
+    
+    
