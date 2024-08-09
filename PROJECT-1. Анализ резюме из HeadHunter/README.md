@@ -1,8 +1,8 @@
 # PROJECT-1. Анализ резюме из HeadHunter
 
 ## Оглавление  
-[1. Описание проекта](https://github.com/Ryba4koff/Public_SF_DS/blob/main/README.md#описание-проекта)  
-[2. Какой кейс решаем?](https://github.com/Ryba4koff/Public_SF_DS/blob/main/README.md#какой-кейс-решаем)  
+[1. Описание проекта](d:\Course_SF_DS_v3\PROJECT-1. Анализ резюме из HeadHunter\README.md d:\Course_SF_DS_v3\PROJECT-1. Анализ резюме из HeadHunter\Project-1._Ноутбук-шаблон.ipynb)  
+[2. Какой кейс решаем?](d:\Course_SF_DS_v3\PROJECT-1. Анализ резюме из HeadHunter\README.md d:\Course_SF_DS_v3\PROJECT-1. Анализ резюме из HeadHunter\Project-1._Ноутбук-шаблон.ipynb)  
 [3. Краткая информация о данных](https://github.com/Ryba4koff/Public_SF_DS/blob/main/README.md#краткая-информация-о-данных)  
 [4. Этапы работы над проектом](https://github.com/Ryba4koff/Public_SF_DS/blob/main/README.md#этапы-работы-над-проектом)  
 [5. Результат](https://github.com/Ryba4koff/Public_SF_DS/blob/main/README.md#результаты)    
